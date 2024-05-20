@@ -1,0 +1,137 @@
+#root {
+  max-width: 1200px;
+  min-width: 800px;
+  margin: 0 auto;
+  place-items: center;
+}
+
+header,
+section {
+  background-color: rgb(204, 245, 232);
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+header {
+  margin-top: 10px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+form {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  place-items: center;
+}
+
+label {
+  font-size: 17px;
+}
+
+input {
+  height: 20px;
+}
+
+.content-input {
+  width: 270px;
+}
+
+.add-btn {
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  border: 3px solid rgb(50, 188, 145);
+  background-color: rgb(50, 188, 145);
+  font-size: 17px;
+  color: white;
+  font-weight: bold;
+}
+
+.add-btn:hover {
+  border: 3px solid rgb(31, 128, 97);
+  background-color: rgb(31, 128, 97);
+}
+
+section h1 {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+button {
+  cursor: pointer;
+}
+
+ul {
+  display: flex;
+  gap: 15px;
+}
+
+li {
+  border-radius: 10px;
+  background-color: white;
+  padding: 20px;
+}
+
+li h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+li p {
+  margin-bottom: 13px;
+}
+
+.working-box {
+  margin-bottom: 40px;
+}
+
+.delete-btn,
+.complete-btn,
+.cancel-btn {
+  width: 55px;
+  height: 30px;
+  border-radius: 3px;
+  background-color: white;
+}
+
+.delete-btn {
+  border: 2px solid red;
+  margin-right: 10px;
+}
+
+.delete-btn:hover {
+  font-weight: bold;
+  color: white;
+  background-color: red;
+}
+
+.complete-btn {
+  border: 2px solid blue;
+  margin-right: 10px;
+}
+
+.complete-btn:hover {
+  font-weight: bold;
+  color: white;
+  background-color: blue;
+}
+
+.cancel-btn {
+  border: 2px solid green;
+  margin-right: 10px;
+}
+
+.cancel-btn:hover {
+  font-weight: bold;
+  color: white;
+  background-color: green;
+}
